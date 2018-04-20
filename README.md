@@ -45,7 +45,6 @@ Multiple values example:
 import f from 'to-fmt';
 import bytes from 'pretty-bytes';
 
-
 const format = f`"${String}" size is ${bytes}!`;
 
 format('index.js', 605); // -> '"index.js" size is 605 B'
