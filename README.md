@@ -40,15 +40,15 @@ format(1); // -> 'Value is 1.00!'
 format(3.14159); // -> 'Value is 3.14!'
 ```
 
-Complex example:
+Multiple values example:
 ```javascript
 import f from 'to-fmt';
 import bytes from 'pretty-bytes';
 
 
-const format = f`File "${String}" size is ${bytes}!`;
+const format = f`"${String}" size is ${bytes}!`;
 
-format('index.js', 605); // -> 'File "index.js" size is 605 B'
+format('index.js', 605); // -> '"index.js" size is 605 B'
 ```
 
 ## License
