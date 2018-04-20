@@ -1,0 +1,30 @@
+{
+  "name": "to-fmt",
+  "version": "1.0.0",
+  "description": "Convert literal template into formatter function",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.spec.js",
+    "cov": "istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R spec index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rumkin/to-format.git"
+  },
+  "keywords": [
+    "format",
+    "formatter",
+    "templates"
+  ],
+  "author": "dev@rumk.in",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rumkin/to-format/issues"
+  },
+  "homepage": "https://github.com/rumkin/to-format#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.1",
+    "should": "^13.2.1"
+  }
+}
