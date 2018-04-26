@@ -47,7 +47,7 @@ import bytes from 'pretty-bytes';
 
 const format = f`"${String}" size is ${bytes}!`;
 
-format('index.js', 605); // -> '"index.js" size is 605 B'
+format('index.js', 1024); // -> '"index.js" size is 1 KiB'
 ```
 
 ## License
