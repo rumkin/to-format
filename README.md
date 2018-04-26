@@ -1,7 +1,7 @@
 Convert template literal to formatter function.
 
 [![npm](https://img.shields.io/npm/v/to-fmt.svg?style=flat-square)](https://npmjs.com/package/to-fmt)
-[![Travis](https://img.shields.io/travis/rumkin/to-fmt.svg?style=flat-square)](https://travis-ci.org/rumkin/to-fmt)
+[![Travis](https://img.shields.io/travis/rumkin/to-fmt.svg?style=flat-square)](https://travis-ci.org/rumkin/to-format)
 ![](https://img.shields.io/badge/coverage-100%25-green.svg?style=flat-square)
 ![](https://img.shields.io/badge/size-0.7%20KiB-blue.svg?style=flat-square)
 ![](https://img.shields.io/badge/deps-0-blue.svg?style=flat-square)
